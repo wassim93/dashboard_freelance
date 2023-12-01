@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import "./styles.scss";
+import "./main.styles.scss";
 
 function MainWrapper({ children, withSidebar }) {
   return (
@@ -14,7 +14,7 @@ function MainWrapper({ children, withSidebar }) {
         <div className="dashboard-content">{children}</div>
       </div>
       <a id="back2Top" className="top-scroll" title="Back to top" href="#">
-        <i className="ti-arrow-up"></i>
+        <i className="fa fa-arrow-up"></i>
       </a>
     </div>
   );

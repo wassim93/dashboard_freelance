@@ -1,5 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./header.styles.scss";
+import Icon from "../assets/logo.png";
 
 function Header(props) {
   return (
@@ -8,7 +10,7 @@ function Header(props) {
         <nav id="navigation" className="navigation navigation-landscape">
           <div className="nav-header">
             <a className="nav-brand" href="#">
-              <img src="assets/img/logo.png" className="logo" alt="" />
+              <img src={Icon} className="logo" alt="" />
             </a>
             <div className="nav-toggle"></div>
             <ul className="mobile_nav dhsbrd">
