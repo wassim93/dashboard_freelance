@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
+import "./sidebar.styles.scss";
 
 function Sidebar(props) {
   const navigateTo = useNavigate();
@@ -30,7 +31,7 @@ function Sidebar(props) {
             </div>
             <div className="jbs-grid-usrs-caption mb-3">
               <div className="jbs-kioyer">
-                <span className="label text-light theme-bg">05 Openings</span>
+                <span className="theme-bg">05 Openings</span>
               </div>
               <div className="jbs-tiosk">
                 <h4 className="jbs-tiosk-title">

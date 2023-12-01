@@ -3,13 +3,11 @@
 
   $(window).on("load", function () {
     $("#preloader").delay(350).fadeOut("slow");
-    console.log("loaad");
     $("body").delay(350).css({ overflow: "visible" });
   });
 
   /*---- Bottom To Top Scroll Script ---*/
   $(window).on("scroll", function () {
-    console.log("here");
     var height = $(window).scrollTop();
     if (height > 100) {
       $("#back2Top").fadeIn();

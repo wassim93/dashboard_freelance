@@ -4575,14 +4575,14 @@ ul.shorting-list li a.active {
   border-radius: 0.6rem;
   padding: 1.5rem 1rem;
 }
-.jbs-grid-usrs-thumb {
+/* .jbs-grid-usrs-thumb {
   position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: 0 auto 0.5rem;
-}
-.jbs-grid-yuo {
+} refactored*/
+/* .jbs-grid-yuo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4593,8 +4593,8 @@ ul.shorting-list li a.active {
 }
 .jbs-grid-yuo figure {
   margin: 0;
-}
-.jbs-grid-usrs-caption {
+} refactored*/
+/* .jbs-grid-usrs-caption {
   position: relative;
   width: 100%;
   display: flex;
@@ -4602,7 +4602,7 @@ ul.shorting-list li a.active {
   align-items: center;
   justify-content: center;
   margin: 0 auto 2.5rem;
-}
+} refactored*/
 .jbs-kioyer-groups {
   position: relative;
   display: flex;
@@ -4621,7 +4621,7 @@ ul.shorting-list li a.active {
   color: #19282d;
   letter-spacing: 0;
 }
-.jbs-tiosk {
+/* .jbs-tiosk {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -4638,7 +4638,7 @@ ul.shorting-list li a.active {
   font-size: 12px;
   font-weight: 500;
   color: rgba(0, 44, 63, 0.6);
-}
+} */
 .jbs-grid-usrs-info {
   position: relative;
   display: flex;
@@ -8440,7 +8440,7 @@ span.remove-from-compare {
 	User Dashboard
 ==================================*/
 
-.dashboard-nav {
+/* .dashboard-nav {
   position: fixed;
   height: 100%;
   overflow-y: scroll;
@@ -8453,13 +8453,13 @@ span.remove-from-compare {
   padding-bottom: 70px;
   z-index: 0;
   background: #fff;
-}
-.dashboard-inner {
+} refactored*/
+/* .dashboard-inner {
   position: relative;
   display: block;
   padding: 10px 0 30px 0;
-}
-.dashboard-nav::-webkit-scrollbar-track {
+} refactored */
+/* .dashboard-nav::-webkit-scrollbar-track {
   background-color: rgb(23 172 106 / 15%);
   border-radius: 10px;
 }
@@ -8532,7 +8532,7 @@ span.remove-from-compare {
   position: relative;
   margin: 0 0 0 4px;
   top: -2px;
-}
+} refactored*/
 .card-header {
   background: #ffffff;
   padding: 0.8rem 1rem;
@@ -9472,9 +9472,9 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     position: sticky;
     top: 100px;
   }
-  div#MobNav {
+  /* div#MobNav {
     display: block;
-  }
+  } refactored*/
 
   .header.header-fixed {
     border-bottom: 1px solid #e9ecef;
@@ -9719,7 +9719,7 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     margin-top: 1.5rem;
   }
 
-  .dashboard-nav {
+  /* .dashboard-nav {
     position: relative;
     width: 100%;
     max-width: 100%;
@@ -9729,7 +9729,7 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     overflow: auto;
     flex: auto !important;
     height: auto !important;
-  }
+  } refactored*/
 
   .hero-search-wrap {
     max-width: 100%;

@@ -1,0 +1,159 @@
+.dashboard-nav {
+  position: fixed;
+  height: 100%;
+  overflow-y: scroll;
+  min-width: 280px;
+  max-width: 760px;
+}
+.dashboard-nav {
+  display: block;
+  z-index: 11;
+  padding-bottom: 70px;
+  z-index: 0;
+  background: #fff;
+}
+.dashboard-inner {
+  position: relative;
+  display: block;
+  padding: 10px 0 30px 0;
+}
+.dashboard-nav::-webkit-scrollbar-track {
+  background-color: rgb(23 172 106 / 15%);
+  border-radius: 10px;
+}
+
+.dashboard-nav::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgb(23 172 106 / 15%);
+}
+
+.dashboard-nav::-webkit-scrollbar-thumb {
+  background-color: #1ca774;
+  border-radius: 10px;
+}
+.dashboard-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 17px 0 0 0;
+}
+.dashboard-nav ul:first-child {
+  margin: 0px 0 0 0;
+}
+.dashboard-nav ul:before {
+  content: attr(data-submenu-title);
+  padding: 0 30px;
+  margin-bottom: 5px;
+  display: block;
+  color: #172228;
+  font-weight: 500;
+  font-size: 14px;
+}
+.dashboard-nav ul li {
+  display: block;
+  border-left: 3px solid transparent;
+  transition: 0.3s;
+  line-height: 20px;
+  font-size: 14px;
+}
+.dashboard-nav ul li.active,
+.dashboard-nav ul li:hover {
+  border-color: #1ca774;
+  background-color: rgba(23, 172, 106, 0.1);
+}
+.dashboard-nav ul li a {
+  color: #47616f;
+  display: block;
+  padding: 12px 20px;
+  transition: 0.3s;
+  cursor: pointer;
+  font-weight: 400;
+  position: relative;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+}
+.dashboard-nav ul li.active a,
+.dashboard-nav ul li:hover a {
+  color: #1ca774;
+}
+
+.dashboard-nav ul li span.count-tag {
+  display: inline-block;
+  font-weight: 700;
+  height: 19px;
+  width: 19px;
+  line-height: 19px;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  background-color: #26ae61;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 0 0 4px;
+  top: -2px;
+}
+
+.jbs-grid-usrs-thumb {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto 0.5rem;
+}
+
+.jbs-grid-yuo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.jbs-grid-yuo figure {
+  margin: 0;
+}
+.jbs-grid-usrs-caption {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2.5rem;
+}
+.jbs-tiosk {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.jbs-tiosk .jbs-tiosk-title {
+  font-size: 17px;
+  margin: 0;
+  line-height: 1.5;
+}
+.jbs-tiosk .jbs-tiosk-subtitle {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(0, 44, 63, 0.6);
+}
+@media (min-width: 992px) {
+  div#MobNav {
+    display: block;
+  }
+}
+@media (max-width: 992px) {
+  .dashboard-nav {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    padding-bottom: 0px;
+    margin-bottom: 1rem;
+    overflow: auto;
+    flex: auto !important;
+    height: auto !important;
+  }
+}
