@@ -5,8 +5,8 @@ import Sidebar from "./Sidebar";
 import "./main.styles.scss";
 
 function MainWrapper({ children, withSidebar }) {
-  const apiUrl = import.meta.env.MODE;
-  console.log(apiUrl);
+  // const apiUrl = import.meta.env.MODE;
+  // console.log(apiUrl);
   return (
     <div id="main-wrapper">
       <Header />

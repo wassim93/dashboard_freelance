@@ -1,0 +1,38 @@
+.card {
+  border: none;
+  margin-bottom: 30px;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #ffffff;
+}
+.card-header {
+  background: #ffffff;
+  padding: 0.8rem 1rem;
+  border-color: #e2e8ec;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card-header h4,
+.card-header h5,
+.card-header h6 {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.list-inline {
+  padding-left: 0;
+  margin-left: -5px;
+  list-style: none;
+}
+.list-inline > li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.list-inline > li h5 {
+  line-height: 18px;
+  font-size: 16px;
+  font-weight: 400;
+}
