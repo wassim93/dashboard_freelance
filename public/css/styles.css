@@ -4193,31 +4193,6 @@ ul.shorting-list li a.active {
   margin-bottom: 0.5rem;
   width: 100%;
 }
-.jbs-job-employer-wrap {
-  position: relative;
-  width: 100%;
-}
-.jbs-job-employer-wrap span {
-  font-weight: 500;
-  color: #728ca3;
-  font-size: 13px;
-}
-.jbs-job-title-wrap {
-  position: relative;
-  display: block;
-  width: 100%;
-}
-.jbs-job-title-wrap h4 {
-  margin: 0;
-  font-size: 17px;
-}
-.jbs-job-title-wrap {
-  position: relative;
-  max-width: 290px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
 .jbs-grid-job-info-wrap {
   position: relative;
   display: flex;
@@ -4332,13 +4307,7 @@ ul.shorting-list li a.active {
   justify-content: space-between;
   width: 100%;
 }
-.jbs-grid-emp-content .jbs-job-employer-wrap span {
-  font-size: 12px;
-}
-.jbs-grid-emp-content .jbs-job-title-wrap h4 {
-  font-size: 15px;
-  line-height: 1.5;
-}
+
 .jbs-info-ico-style {
   position: relative;
   display: flex;
@@ -4409,55 +4378,7 @@ ul.shorting-list li a.active {
   background-size: cover;
 }
 /*---------------- List Style ---------------*/
-.jbs-list-box {
-  position: relative;
-  width: 100%;
-  display: flex;
-  background: #ffffff;
-  border-radius: 0.5rem;
-  flex-direction: column;
-  padding: 1.4rem 1rem;
-}
-.jbs-list-head {
-  position: relative;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 1rem;
-}
-.jbs-list-head-thunner {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: auto;
-}
-.jbs-list-emp-thumb {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-  background: #f4f5f7;
-  border-radius: 0.4rem;
-}
-.jbs-list-emp-thumb figure {
-  margin: 0;
-}
-.jbs-list-emp-thumb figure img {
-  max-width: 50px;
-}
-.jbs-list-job-caption {
-  display: flex;
-  align-items: self-start;
-  justify-content: flex-start;
-  flex-direction: column;
-  padding-left: 1rem;
-  width: 100%;
-  flex: 1;
-}
+
 .jbs-job-mrch-lists {
   position: relative;
   width: auto;
@@ -9181,9 +9102,6 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     margin: 0;
     margin-left: 10px;
   }
-  .jbs-list-box .jbs-list-head-last .btn-outline-secondary {
-    display: none;
-  }
 }
 
 @media (min-width: 768px) {
@@ -9695,9 +9613,7 @@ footer.skin-dark-footer .footer-widget .ftp-info {
   .hero-header .text-xl {
     margin-bottom: 1rem;
   }
-  .jbs-list-box .jbs-list-head-last .btn-outline-secondary {
-    display: none;
-  }
+
   .jbs-list-head-middle {
     display: none;
   }
@@ -9773,15 +9689,7 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     flex: 0 0 100%;
     margin-bottom: 1rem;
   }
-  .jbs-list-postedinfo {
-    display: flex;
-    margin: 1rem 0;
-    /* clear: both; */
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
-    flex-direction: column;
-  }
+
   .footer .footer-top {
     margin-bottom: 40px;
   }
@@ -9856,25 +9764,6 @@ footer.skin-dark-footer .footer-widget .ftp-info {
   }
   .hired-box-slack {
     padding: 3rem 2rem;
-  }
-  .jbs-list-emp-thumb {
-    width: 50px;
-    height: 50px;
-  }
-  .jbs-list-job-caption {
-    padding-left: 10px;
-  }
-  .jbs-list-box .jbs-job-title-wrap h4 {
-    font-size: 14px;
-  }
-  .jbs-list-head {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .jbs-list-head-thunner {
-    margin-bottom: 1rem;
   }
   .jbs-blox-head .nav-tabs .nav-link {
     padding: 1rem 0.7rem;
