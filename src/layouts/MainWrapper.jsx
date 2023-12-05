@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import Header from "./Header";
 import Sidebar from "./Sidebar";
-import "./main.styles.scss";
+import "./main.scss";
 
 function MainWrapper({ children, withSidebar }) {
   // const apiUrl = import.meta.env.MODE;

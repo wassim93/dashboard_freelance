@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "./header.styles.scss";
+import "./header.scss";
 import Icon from "../assets/logo.png";
 
 function Header(props) {

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
-import "./sidebar.styles.scss";
+import "./sidebar.scss";
 
 function Sidebar(props) {
   const navigateTo = useNavigate();
