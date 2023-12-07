@@ -7,8 +7,13 @@ import NotificationPanel from "../shared/notification-panel/NotificationPanel";
 import Datatable from "../shared/datatable/Datatable";
 import Footer from "../layouts/Footer";
 import { CardsDummyData } from "../shared/dashboard-cards/cards-dummy-data";
+import { NotificationDummyData } from "../shared/notification-panel/notifications-dummy-data";
+import { DatatableActions, DummyDatatableData } from "../shared/datatable/dummy-datatable-data";
 
 function DashboardContent(props) {
+  const onRowActionClick = (action, data) => {
+    console.log(action, "daaaaa", data);
+  };
   return (
     <>
       <DashboardBreadcrumps />
@@ -17,9 +22,13 @@ function DashboardContent(props) {
         <DashboardCards items={CardsDummyData} />
         <div className="row gx-4 gy-4 mb-4">
           <DashboardChart />
-          <NotificationPanel />
+          <NotificationPanel items={NotificationDummyData} />
         </div>
-        <Datatable />
+        <Datatable
+          items={DummyDatatableData}
+          onRowActionClick={onRowActionClick}
+          DatatableActions={DatatableActions}
+        />
       </div>
 
       <Footer />

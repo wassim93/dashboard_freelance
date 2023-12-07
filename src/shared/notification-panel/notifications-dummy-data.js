@@ -1,0 +1,42 @@
+export const NotificationDummyData = [
+  {
+    id: 0,
+    notificationText: "Replied your message",
+    notificationStrongText: "Kr. Shaury Preet",
+    notificationTime: "just now",
+    fontAwsomeIcon: "fas fa-home",
+    fontAwesomeIconColor: "text-warning bg-light-warning",
+  },
+  {
+    id: 1,
+    notificationText: "Replied your message",
+    notificationStrongText: "Kr. Shaury Preet",
+    notificationTime: "just now",
+    fontAwsomeIcon: "fa-solid fa-comments",
+    fontAwesomeIconColor: "text-danger bg-light-danger",
+  },
+  {
+    id: 2,
+    notificationText: "Replied your message",
+    notificationStrongText: "Kr. Shaury Preet",
+    notificationTime: "just now",
+    fontAwsomeIcon: "fa-solid fa-heart",
+    fontAwesomeIconColor: "text-info bg-light-info",
+  },
+  {
+    id: 3,
+    notificationText: "Replied your message",
+    notificationStrongText: "Kr. Shaury Preet",
+    notificationTime: "just now",
+    fontAwsomeIcon: "fa-solid fa-thumbs-up",
+    fontAwesomeIconColor: "text-danger bg-light-danger",
+  },
+  {
+    id: 4,
+    notificationText: "Replied your message",
+    notificationStrongText: "Kr. Shaury Preet",
+    notificationTime: "just now",
+    fontAwsomeIcon: "fa-solid fa-comment-dots",
+    fontAwesomeIconColor: "text-success bg-light-success",
+  },
+];

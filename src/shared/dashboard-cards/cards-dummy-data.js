@@ -33,12 +33,12 @@ export const CardsDummyData = [
     fontAwesomeIconColor: "text-info bg-light-info",
     svgIcon: null,
   },
-  {
-    id: 4,
-    title: "Posted Jobs",
-    value: "760",
-    fontAwsomeIcon: "fa-sharp fa-solid fa-comments",
-    fontAwesomeIconColor: "text-info bg-light-info",
-    svgIcon: null,
-  },
+  // {
+  //   id: 4,
+  //   title: "Posted Jobs",
+  //   value: "760",
+  //   fontAwsomeIcon: "fa-sharp fa-solid fa-comments",
+  //   fontAwesomeIconColor: "text-info bg-light-info",
+  //   svgIcon: null,
+  // },
 ];
