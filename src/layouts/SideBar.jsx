@@ -3,8 +3,9 @@ import PropTypes from "prop-types";
 import { useNavigate } from "react-router-dom";
 import "./sidebar.scss";
 
-function Sidebar(props) {
+function Sidebar({ route }) {
   const navigateTo = useNavigate();
+  console.log(route);
   return (
     <>
       <a
@@ -46,8 +47,20 @@ function Sidebar(props) {
             </div>
           </div>
           <div className="dashboard-inner">
+            {console.log("pathname", window?.location?.pathname)}
             <ul data-submenu-title="Main Navigation">
-              <li className="active">
+              {route?.sidebarItems?.map((item, index) => (
+                <li
+                  key={index}
+                  className={window?.location?.pathname?.includes(item?.route) ? "active" : ""}
+                >
+                  <a onClick={() => navigateTo(item?.route)}>
+                    <i className={`${item?.icon} me-2`}></i>
+                    {item?.title}
+                  </a>
+                </li>
+              ))}
+              {/* <li className="active">
                 <a href="employer-dashboard.html">
                   <i className="fa-solid fa-gauge-high me-2"></i>User Dashboard
                 </a>
@@ -106,7 +119,7 @@ function Sidebar(props) {
                 <a href="index.html">
                   <i className="fa-solid fa-power-off me-2"></i>Log Out
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

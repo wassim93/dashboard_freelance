@@ -1,18 +1,18 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Header from "./Header";
-import Sidebar from "./Sidebar";
 import "./main.scss";
+import Sidebar from "./SideBar";
 
-function MainWrapper({ children, withSidebar }) {
+function MainWrapper({ children, withSidebar, route }) {
   // const apiUrl = import.meta.env.MODE;
-  // console.log(apiUrl);
+  console.log(route);
   return (
     <div id="main-wrapper">
       <Header />
       <div className="clearfix"></div>
       <div className="dashboard-wrap bg-light">
-        {withSidebar && <Sidebar />}
+        {withSidebar && <Sidebar route={route} />}
         <div className="dashboard-content">{children}</div>
       </div>
       <a id="back2Top" className="top-scroll" title="Back to top" href="#">

@@ -10,13 +10,13 @@ import { CardsDummyData } from "../shared/dashboard-cards/cards-dummy-data";
 import { NotificationDummyData } from "../shared/notification-panel/notifications-dummy-data";
 import { DatatableActions, DummyDatatableData } from "../shared/datatable/dummy-datatable-data";
 
-function DashboardContent(props) {
+function EmployerDashboard(props) {
   const onRowActionClick = (action, data) => {
     console.log(action, "daaaaa", data);
   };
   return (
     <>
-      <DashboardBreadcrumps />
+      <DashboardBreadcrumps title="Employer Dashboard" />
 
       <div className="dashboard-widg-bar">
         <DashboardCards items={CardsDummyData} />
@@ -36,6 +36,6 @@ function DashboardContent(props) {
   );
 }
 
-DashboardContent.propTypes = {};
+EmployerDashboard.propTypes = {};
 
-export default DashboardContent;
+export default EmployerDashboard;

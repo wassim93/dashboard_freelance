@@ -20,11 +20,7 @@ function Datatable({ items, withActions, DatatableActions, onRowActionClick }) {
                         <div className="jbs-list-emp-thumb jbs-verified">
                           <a href="job-detail.html">
                             <figure>
-                              <img
-                                src="https://placehold.co/200x200"
-                                className="img-fluid"
-                                alt=""
-                              />
+                              <img src={item?.icon} className="img-fluid" alt="" />
                             </figure>
                           </a>
                         </div>
@@ -34,7 +30,9 @@ function Datatable({ items, withActions, DatatableActions, onRowActionClick }) {
                           </div>
                           <div className="jbs-job-title-wrap">
                             <h4>
-                              <div className="jbs-job-title">{item?.jobTitle}</div>
+                              <a href="job-detail.html">
+                                <div className="jbs-job-title">{item?.jobTitle}</div>
+                              </a>
                             </h4>
                           </div>
                         </div>
@@ -60,6 +58,7 @@ function Datatable({ items, withActions, DatatableActions, onRowActionClick }) {
                             <React.Fragment key={index}>
                               <a
                                 // href="#"
+                                role="button"
                                 onClick={() => onRowActionClick(action, item)}
                                 className={`rounded btn-md ${action?.fontAwesomeIconColor} px-3`}
                               >

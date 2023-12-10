@@ -4497,7 +4497,7 @@ ul.shorting-list li a.active {
   padding: 1.5rem 1rem;
 }
 
-.jbs-kioyer-groups {
+/* .jbs-kioyer-groups {
   position: relative;
   display: flex;
   align-items: center;
@@ -4505,7 +4505,7 @@ ul.shorting-list li a.active {
   font-size: 11px;
   letter-spacing: 3px;
   color: #d7dde2;
-}
+}refactored */
 .jbs-kioyer-groups .active {
   color: #ff9800;
 }
@@ -8317,7 +8317,7 @@ span.remove-from-compare {
 	User Dashboard
 ==================================*/
 
-.upload-btn-wrapper {
+/* .upload-btn-wrapper {
   position: relative;
   overflow: hidden;
   display: inline-block;
@@ -8339,7 +8339,7 @@ span.remove-from-compare {
   left: 0;
   top: 0;
   opacity: 0;
-}
+} refactored*/
 
 /*---------- Notification -----------*/
 .btn-circle-40 {
@@ -8409,7 +8409,7 @@ td.prt-fgi {
 }
 
 /*------------------ My Profile ---------------------*/
-.dashboard-profle-wrapper {
+/* .dashboard-profle-wrapper {
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -8418,8 +8418,8 @@ td.prt-fgi {
   padding: 1.5rem 1rem;
   background: #ffffff;
   border-radius: 0.4rem;
-}
-.dash-prf-start {
+} refactored */
+/* .dash-prf-start {
   position: relative;
   width: auto;
 }
@@ -8429,20 +8429,20 @@ td.prt-fgi {
   justify-content: center;
   width: 120px;
   height: 120px;
-}
-.upload-btn-wrapper.small .btn {
+} refactored*/
+/* .upload-btn-wrapper.small .btn {
   padding: 0.5rem 1rem;
   height: auto;
   font-size: 12px;
-}
-.dash-prf-start {
+} refactored*/
+/* .dash-prf-start {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-}
-.dash-prf-end {
+} reafctoed*/
+/* .dash-prf-end {
   position: relative;
   display: block;
   flex: 1;
@@ -8467,8 +8467,8 @@ td.prt-fgi {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.dash-prf-infos {
+} refactored*/
+/* .dash-prf-infos {
   position: relative;
   display: flex;
   align-items: center;
@@ -8482,8 +8482,8 @@ td.prt-fgi {
 }
 .dash-prf-infos .single-dash-prf-infos:last-child {
   margin-right: 0rem;
-}
-.single-dash-prf-infos-icons {
+} refactored */
+/* .single-dash-prf-infos-icons {
   width: 40px;
   height: 40px;
   display: flex;
@@ -8502,12 +8502,12 @@ td.prt-fgi {
   font-weight: 600;
   font-size: 12px;
   line-height: 1.4;
-}
-.dash-prf-completion {
+}refactored */
+/* .dash-prf-completion {
   position: relative;
   flex: 1;
   max-width: 280px;
-}
+}refactored */
 
 /*------------------ My Resume ----------------------*/
 .cd-resume-wraps {
@@ -9405,10 +9405,10 @@ footer.skin-dark-footer .footer-widget .ftp-info {
   .light-jbs-alert {
     margin-top: 1rem;
   }
-  .dash-prf-caption-end {
+  /* .dash-prf-caption-end {
     flex-direction: column;
     align-items: flex-start;
-  }
+  }refactored */
 }
 
 @media (max-width: 991px) {
@@ -9454,11 +9454,11 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     font-size: 11px;
     margin-right: 0.8rem;
   }
-  .dash-prf-completion {
+  /* .dash-prf-completion {
     max-width: 100%;
     flex: auto;
     width: 100%;
-  }
+  } refactored*/
 }
 
 @media (max-width: 767px) {
@@ -9676,19 +9676,19 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     padding: 0;
     margin: 1rem 0;
   }
-  .dashboard-profle-wrapper {
+  /* .dashboard-profle-wrapper {
     flex-direction: column;
   }
   .dashboard-profle-wrapper .dash-prf-end {
     padding: 0;
-  }
-  .dash-prf-infos {
+  } refactored */
+  /* .dash-prf-infos {
     flex-wrap: wrap;
-  }
-  .single-dash-prf-infos {
+  } refactored */
+  /* .single-dash-prf-infos {
     flex: 0 0 100%;
     margin-bottom: 1rem;
-  }
+  }refactored */
 
   .footer .footer-top {
     margin-bottom: 40px;
@@ -9797,13 +9797,13 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     padding: 0;
     margin-top: 1rem;
   }
-  .dash-prfs-caption.emplyer {
+  /* .dash-prfs-caption.emplyer {
     flex-direction: column;
     align-items: flex-start;
-  }
-  .dash-prfs-flexfirst {
+  }refactored */
+  /* .dash-prfs-flexfirst {
     margin-bottom: 0.5rem;
-  }
+  }refactored */
   .single-rtl-jbs-hot {
     align-items: flex-start;
   }

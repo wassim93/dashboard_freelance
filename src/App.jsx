@@ -5,6 +5,7 @@ import routes from "./routes/routes";
 import MainWrapper from "./layouts/MainWrapper";
 
 function App() {
+  console.log("first");
   return (
     <Router>
       <Routes>
@@ -13,7 +14,7 @@ function App() {
             key={route.path}
             path={route.path}
             element={
-              <MainWrapper withSidebar={route.withSidebar}>
+              <MainWrapper route={route} withSidebar={route.withSidebar}>
                 <route.component />
               </MainWrapper>
             }
