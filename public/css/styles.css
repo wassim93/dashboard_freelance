@@ -4497,15 +4497,6 @@ ul.shorting-list li a.active {
   padding: 1.5rem 1rem;
 }
 
-/* .jbs-kioyer-groups {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  letter-spacing: 3px;
-  color: #d7dde2;
-}refactored */
 .jbs-kioyer-groups .active {
   color: #ff9800;
 }
@@ -8317,30 +8308,6 @@ span.remove-from-compare {
 	User Dashboard
 ==================================*/
 
-/* .upload-btn-wrapper {
-  position: relative;
-  overflow: hidden;
-  display: inline-block;
-}
-
-.upload-btn-wrapper .btn {
-  border: none;
-  color: #1ca774;
-  background-color: rgb(23 172 106 / 12%);
-  padding: 8px 20px;
-  border-radius: 0.3rem;
-  font-size: 14px;
-  font-weight: 500;
-  cursor: pointer !important;
-}
-.upload-btn-wrapper input[type="file"] {
-  font-size: 100px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0;
-} refactored*/
-
 /*---------- Notification -----------*/
 .btn-circle-40 {
   width: 40px;
@@ -8409,105 +8376,6 @@ td.prt-fgi {
 }
 
 /*------------------ My Profile ---------------------*/
-/* .dashboard-profle-wrapper {
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  width: 100%;
-  padding: 1.5rem 1rem;
-  background: #ffffff;
-  border-radius: 0.4rem;
-} refactored */
-/* .dash-prf-start {
-  position: relative;
-  width: auto;
-}
-.dash-prf-start .dash-prf-start-upper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
-} refactored*/
-/* .upload-btn-wrapper.small .btn {
-  padding: 0.5rem 1rem;
-  height: auto;
-  font-size: 12px;
-} refactored*/
-/* .dash-prf-start {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-} reafctoed*/
-/* .dash-prf-end {
-  position: relative;
-  display: block;
-  flex: 1;
-  padding-left: 1.5rem;
-}
-.dash-prfs-caption {
-  position: relative;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-.dash-prfs-caption.emplyer {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.dash-prfs-title h4 {
-  margin-bottom: 2px;
-}
-.dash-prf-caption-end {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} refactored*/
-/* .dash-prf-infos {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.dash-prf-infos .single-dash-prf-infos {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  margin-right: 1.5rem;
-}
-.dash-prf-infos .single-dash-prf-infos:last-child {
-  margin-right: 0rem;
-} refactored */
-/* .single-dash-prf-infos-icons {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #ebeef1;
-  border-radius: 0.2rem;
-  color: #86959f;
-}
-.single-dash-prf-infos-caption {
-  position: relative;
-  display: block;
-  padding-left: 10px;
-}
-.single-dash-prf-infos-caption h5 {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 1.4;
-}refactored */
-/* .dash-prf-completion {
-  position: relative;
-  flex: 1;
-  max-width: 280px;
-}refactored */
 
 /*------------------ My Resume ----------------------*/
 .cd-resume-wraps {
@@ -9405,10 +9273,6 @@ footer.skin-dark-footer .footer-widget .ftp-info {
   .light-jbs-alert {
     margin-top: 1rem;
   }
-  /* .dash-prf-caption-end {
-    flex-direction: column;
-    align-items: flex-start;
-  }refactored */
 }
 
 @media (max-width: 991px) {
@@ -9454,11 +9318,6 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     font-size: 11px;
     margin-right: 0.8rem;
   }
-  /* .dash-prf-completion {
-    max-width: 100%;
-    flex: auto;
-    width: 100%;
-  } refactored*/
 }
 
 @media (max-width: 767px) {
@@ -9676,19 +9535,6 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     padding: 0;
     margin: 1rem 0;
   }
-  /* .dashboard-profle-wrapper {
-    flex-direction: column;
-  }
-  .dashboard-profle-wrapper .dash-prf-end {
-    padding: 0;
-  } refactored */
-  /* .dash-prf-infos {
-    flex-wrap: wrap;
-  } refactored */
-  /* .single-dash-prf-infos {
-    flex: 0 0 100%;
-    margin-bottom: 1rem;
-  }refactored */
 
   .footer .footer-top {
     margin-bottom: 40px;
@@ -9797,13 +9643,7 @@ footer.skin-dark-footer .footer-widget .ftp-info {
     padding: 0;
     margin-top: 1rem;
   }
-  /* .dash-prfs-caption.emplyer {
-    flex-direction: column;
-    align-items: flex-start;
-  }refactored */
-  /* .dash-prfs-flexfirst {
-    margin-bottom: 0.5rem;
-  }refactored */
+
   .single-rtl-jbs-hot {
     align-items: flex-start;
   }

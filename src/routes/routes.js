@@ -5,8 +5,16 @@ import EmployerDashboard from "../components/EmployerDashboard";
 import CandidateDashboard from "../components/CandidateDashboard";
 import { CandidateSidebarItems, EmployerSidebarItems } from "./sidebar-items";
 import UserProfile from "../components/UserProfile";
+import LandingPage from "../components/LandingPage";
 
 const routes = [
+  {
+    path: "/home",
+    component: LandingPage,
+    exact: true,
+    withSidebar: false,
+    sidebarItems: null,
+  },
   /** * Candidate dashboard routes * **/
   {
     path: "/candidate-dashboard",
